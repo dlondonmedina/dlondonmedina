@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <vue-title :title="'Dylan Medina - ' + $route.name" />
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="columns is-centered">
             <div class="column">
-                <img id="avatar" src="../assets/avatar.png">
+                <img id="avatar" src="@/assets/avatar.png">
                 <h1 class="has-text-light is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Dylan Medina, PhD</h1>
                 <h2 class="has-text-grey-light is-size-4-desktop">Teacher, Developer &amp; Writer</h2>
             </div>
