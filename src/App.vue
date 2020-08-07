@@ -37,7 +37,6 @@
       </div>
     </nav>
     <router-view></router-view>
-    <div class='container'>
     <footer class="footer has-text-centered">
       <div class="columns is-centered">
         <div class="column is-one-quarter">
@@ -46,24 +45,16 @@
         <div class="column is-half">
           <div class="columns is-centered">
             <div class="column is-narrow">
-              <a href>
-                <font-awesome-icon class="social-icon" :icon="['fab', 'github']" size="2x" />
-              </a>
+                <a href="https://github.com/dlondonmedina/"><font-awesome-icon class="social-icon" :icon="['fab', 'github']" size="2x" /></a>
             </div>
             <div class="column is-narrow">
-              <a href>
-                <font-awesome-icon class="social-icon" :icon="['fab', 'twitter']" size="2x" />
-              </a>
+                <a href="https://twitter.com/Dlondonmedina"><font-awesome-icon class="social-icon" :icon="['fab', 'twitter']" size="2x" /></a>
             </div>
             <div class="column is-narrow">
-              <a href>
-                <font-awesome-icon class="social-icon" :icon="['fab', 'linkedin']" size="2x" />
-              </a>
+                <a href="https://www.linkedin.com/in/dlondonmedina/"><font-awesome-icon class="social-icon" :icon="['fab', 'linkedin']" size="2x" /></a>
             </div>
             <div class="column is-narrow">
-              <a href>
-                <font-awesome-icon class="social-icon" :icon="['fas', 'envelope']" size="2x" />
-              </a>
+                <a href="mailto:dylan@dylanmedina.com"><font-awesome-icon class="social-icon" :icon="['fas', 'envelope']" size="2x" /></a>
             </div>
           </div>
         </div>
@@ -71,9 +62,7 @@
           <h2>Thanks for visiting!</h2>
         </div>
       </div>
-    </footer>
-    </div>
-    
+    </footer>    
   </div>
 </template>
 
