@@ -87,7 +87,7 @@ export default {
       isModalVisible: true,
       msg: {
         title: "Black Lives Matter",
-        text: "I am happy very grateful that you have taken the time to visit my website. We live in a time where white supremacy and institutional racism can no longer be ignored. Before you continue, I ask that you take a moment to visit and perhaps support one or more of the following organizations working to make Black Lives Matter.",
+        text: "I am very grateful that you have taken the time to visit my website. In this moment, white supremacy and institutional racism can no longer be ignored. Before you continue, I ask that you take a moment to visit and perhaps support one or more of the following organizations working to make Black Lives Matter.",
         links: [
           {text: 'Black Lives Matter', link: 'https://blacklivesmatter.com/'},
           {text: 'BLM Seattle-King County', link: 'https://blacklivesseattle.org/'},

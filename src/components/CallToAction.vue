@@ -27,6 +27,11 @@
 <script>
 export default {
     name: 'CallToAction',
+    mounted() {
+        setTimeout(() => {
+            this.close()
+        }, 30000);
+    },
     props: {
         msg: Object
     },

@@ -2,12 +2,14 @@
   <div class="home">
     <HomeLanding />
     <HomeSkills :items="this.items" />
+    <HomeContact />
   </div>
 </template>
 
 <script>
 import HomeLanding from "../components/HomeLanding.vue";
 import HomeSkills from "../components/HomeSkills.vue";
+import HomeContact from '../components/HomeContact.vue';
 
 export default {
   name: "Home",
@@ -57,7 +59,8 @@ export default {
   },
   components: {
     HomeLanding,
-    HomeSkills
+    HomeSkills,
+    HomeContact
   }
 };
 </script>
