@@ -125,7 +125,4 @@ export default {
 .navbar-menu {
   margin-right: 1.5rem;
 }
-.cta-logo {
-  opacity: 80%;
-}
 </style>
