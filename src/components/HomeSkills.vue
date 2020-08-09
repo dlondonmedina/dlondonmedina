@@ -2,7 +2,7 @@
     <div class="homeskills container has-text-centered">
         <div class="columns">
             <div class="column homeskill" v-for="item in this.items">
-                <a :href="'projects' + item.link">
+                <router-link :to="'/projects' + item.link">
                     <div class="card">
                     <font-awesome-icon class="skill-icon" :icon="[item.i.set, item.i.n]" size="6x" />
                     <div class="card-content"><h1 class="title is-4">{{ item.skill }}</h1>
@@ -14,7 +14,7 @@
                     </div>
                     </div>
                 </div>
-                </a>
+                </router-link>
             </div>
         </div>
     </div>
