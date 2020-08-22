@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import VueGtag from "vue-gtag"
 import Title from './components/Title.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -20,6 +21,9 @@ Vue.component('vue-title', Title)
 
 Vue.config.productionTip = false
 
+Vue.use(VueGtag, {
+  config: { id: "UA-93487852-1"}
+}, router);
 
 new Vue({
   el: '#app',

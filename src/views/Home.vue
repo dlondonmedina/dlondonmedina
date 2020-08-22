@@ -38,7 +38,7 @@ export default {
             "Frontend: HTML/CSS/Javascript, Gatsby",
             "Backend: PHP, SQL, C#",
             "Frameworks: Flask, Django, Vue, Wordpress",
-            "Infrastructure: Apache, NGINX, Azure, AWS"
+            "Infrastructure: Apache, Firebase, Azure, AWS"
           ]
         },
         {

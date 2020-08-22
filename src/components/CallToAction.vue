@@ -9,10 +9,12 @@
                 </div>
                 <div class="message-body has-text-centered">
                     {{ msg.text }}
-                    <div class="card">
+                    <div class="columns is-mobile is-centered">
+                    <div class="card is-half">
                         <ul>
                             <li v-for="l in msg.links"><a :href="l.link" target="_blank" style="text-decoration: none;">{{l.text}}</a></li>
                         </ul>     
+                    </div>
                     </div>
                 </div>
             </article>
