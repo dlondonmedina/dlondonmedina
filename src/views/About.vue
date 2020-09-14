@@ -10,7 +10,7 @@
           </div>
           <div class="column">
             <figure class="image is-center is-flex is-horizontal-center">
-              <img src="@/assets/profile.jpg" alt="Picture of me." class="is-rounded profl" style="max-width: 350px;">
+              <img src="@/assets/profile.jpg" alt="Picture of me." class="is-rounded profl" style="max-width: 350px; max-height: 350px;">
             </figure>
           </div>
         </div>
@@ -50,7 +50,7 @@
           </div>
           <div class="column">
             <div class="is-flex is-horizontal-center">
-            <iframe width="560" height="375" src="https://www.youtube-nocookie.com/embed/mwCYIUgN40o" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/mwCYIUgN40o" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -100,8 +100,8 @@ section {
 }
 .flip-card-front, .flip-card-back {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 95%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
