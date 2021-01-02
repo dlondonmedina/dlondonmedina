@@ -1,24 +1,10 @@
-# frontend
+# Dylan Medina, PhD
+## digital humanist, developer & teacher
 
-## Project setup
-```
-npm install
-```
+I work at the intersection of humanities and digital technology to create solutions that improve human/machine interaction for a more just and humane world. I also teach writing and have opinions that I'd be happy to share with you.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Find Me
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [Portfolio](https://dylanmedina.com)
+* [LinkedIn](https://www.linkedin.com/in/dlondonmedina)
+* [Github](https://dlondonmedina.github.io/dlondonmedina)
